@@ -19,6 +19,6 @@ def test_positive(browser_settings):
 
 
 def test_negative(browser_settings):
-    browser.element('.RNNXgb input[name=q]').should(be.blank).type('зщкзхух').press_enter()
+    browser.element('.RNNXgb input[name=q]').should(be.blank).type('kselenejsglkjslgj').press_enter()
     browser.element('[id=center_col]').should(have.text('ничего не найдено'))
 
