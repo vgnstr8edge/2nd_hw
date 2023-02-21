@@ -22,5 +22,5 @@ def test_negative(browser_settings):
     browser.config.browser_name = 'firefox'
     browser.config.hold_browser_open = True
     browser.open('https://google.com')
-    browser.element('.RNNXgb input[name=q]').should(be.blank).type('yashaka/c##').press_enter()
-    browser.element('[id="search"]').should(have.text('K&F Concept Lens Mount Adapter, Contax/Yashica (C/Y) Lens ...'))
+    browser.element('.RNNXgb input[name=q]').should(be.blank).type('yashaka/c##/fkdlkflkjfj').press_enter()
+    browser.element('[id=center_col]').should(have.text('ничего не найдено'))
